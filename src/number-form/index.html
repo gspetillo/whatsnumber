@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WhatsApp Number</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div id="header">
+      <img
+        id="whats-logo"
+        src="https://static.xx.fbcdn.net/rsrc.php/yz/r/lOol7j-zq4u.svg"
+        alt=""
+      />
+      <h1 id="title">WhatsApp Number</h1>
+    </div>
+    <div id="app">
+      <p id="lead">Envie mensagens e faça ligações<br>pelo Whatsapp™ sem precisar<br>adicionar o contato 😃</p>
+      <form action="#" id="number-form">
+        <select name="countries" id="select-countries" required>
+          <option id="select-country" value="select-country" selected>
+            Selecione seu país
+          </option>
+        </select>
+        <input
+          id="phone-number"
+          type=" number"
+          placeholder="(DDD) XXXXX-XXXX"
+          maxlength="20"
+          minlength="3"
+          onchange="callNumber()"
+          required
+        />
+        <a id="submit" href="">Enviar</a>
+      </form>
+      <div id="footer">
+        <p id="developed">Developed by <b><a href="https://www.linkedin.com/in/gabrielpetillo/">Gabriel Petillo</a></b></p>
+        <p id="advice">Este site não é de responsabilidade, mantido<br> ou desenvolvido pelo Whatsapp™ ou Meta™</p>
+      </div>
+    </div>
+    <div id="background"></div>
+    <div id="background"></div>
+    <script src="./script.js"></script>
+  </body>
+</html>

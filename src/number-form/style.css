@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700;900&display=swap");
+
+* {
+  margin: 0;
+  font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#background {
+  position: relative;
+  z-index: -1;
+  top: -690px;
+  height: 45vh;
+  background-image: url("https://i.pinimg.com/736x/8c/98/99/8c98994518b575bfd8c949e91d20548b.jpg");
+  opacity: 0.3;
+}
+
+#header {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  gap: 5px;
+  font-size: 12px;
+  font-weight: 100;
+  padding: 1.9% 11%; 
+  /* 1.5625rem 9.375rem; */
+  height: 40px;
+  color: #fff;
+  background-color: #128c7e;
+}
+
+#app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+#whats-logo {
+  height: 40px;
+}
+
+#title {
+  font-weight: 600;
+}
+
+#lead {
+  background-color: #128c7e;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 700;
+  color: #fff;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 50px;
+}
+
+#number-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#number-form select,
+#number-form input {
+  width: 300px;
+  color: #757575;
+}
+
+#number-form input {
+  margin: 10px 0;
+  width: 277px;
+}
+
+#select-countries,
+#phone-number {
+  font-size: 16px;
+  padding: 20px 10px;
+}
+
+#submit {
+  font-size: 16px;
+  max-width: 200px;
+  text-decoration: none;
+  text-align: center;
+  padding: 16px 32px;
+  color: #fff;
+  background-color: #128c7e;
+  border: none;
+  border-radius: 50px;
+}
+
+#footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  margin: 50px;
+  padding: 50px;;
+  background-color: #273443;
+}
+
+#developed,
+#advice {
+  color: #ccc;
+}
+
+
+#developed a {
+  text-decoration: none;
+  color: #41f1dd;
+  font-weight: 400;
+}
+
+#advice {
+  font-size: 12px;
+  margin-top: 12px;
+  color: #bbb;
+}
+
+body{
+  height: 0vh;
+}

@@ -1,10 +1,10 @@
-# Bingo Online 🔢
+# whatsnumber - Whatsapp Number 📲
 
-<a href="https://www.bingoonline.tk"><img src="whatsapp-number-site.png" alt="Bingo Online Website" width="300px"/></a>
+<a href="https://whatsappnumber.vercel.app/"><img src="whatsapp-number-site.png" alt="Whatsapp Number Website" width="300px"/></a>
 
 ### 🌐 Website
 
-<a href="https://bingo-online.vercel.app/">https://whatsappnumber.vercel.app/</a>
+<a href="https://whatsappnumber.vercel.app/">https://whatsappnumber.vercel.app/</a>
 
 ### Description
 

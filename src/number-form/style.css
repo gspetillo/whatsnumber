@@ -5,10 +5,14 @@
   font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
+/* #bg{
+  height: 0vh;
+} */
+
 #background {
   position: relative;
   z-index: -1;
-  top: -690px;
+  top: -700px;
   height: 45vh;
   background-image: url("https://i.pinimg.com/736x/8c/98/99/8c98994518b575bfd8c949e91d20548b.jpg");
   opacity: 0.3;
@@ -29,6 +33,7 @@
 }
 
 #app {
+  width: 98vw;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -96,8 +101,10 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 100vw;
-  margin: 50px;
+  /* width: 92vw; */
+  width: calc(100vw - 105px);
+  /* width: 50vw; */
+  margin-top: 50px;
   padding: 50px;;
   background-color: #273443;
 }

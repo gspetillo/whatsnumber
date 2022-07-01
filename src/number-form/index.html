@@ -6,21 +6,80 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>WhatsApp Number</title>
     <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="shortcut icon"
+      sizes="16x16 24x24 32x32 48x48 64x64"
+      href="../../assets/images/icons/favicon.ico"
+    />
+    <!-- Mobile (Android, iOS & others) -->
+    <link
+      rel="apple-touch-icon"
+      sizes="57x57"
+      href="../../assets/images/icons/favicon.ico"
+    />
+    <link
+      rel="apple-touch-icon-precomposed"
+      sizes="57x57"
+      href="../../assets/images/icons/favicon.ico"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="72x72"
+      href="../../assets/images/icons/favicon.ico"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="114x114"
+      href="../../assets/images/icons/favicon.ico"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="120x120"
+      href="../../assets/images/icons/favicon.ico"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="144x144"
+      href="../../assets/images/icons/favicon.ico"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="152x152"
+      href="../../assets/images/icons/favicon.ico"
+    />
+    <!-- Windows 8 Tiles -->
+    <meta name="application-name" content="Scotch Scotch scotch" />
+    <meta
+      name="msapplication-TileImage"
+      content="../../assets/images/icons/favicon.ico"
+    />
+    <meta name="msapplication-TileColor" content="#2A2A2A" />
+    <!-- iOS Settings -->
+    <meta content="yes" name="apple-mobile-web-app-capable" />
+    <meta
+      name="apple-mobile-web-app-status-bar-style"
+      content="black-translucent"
+    />
   </head>
   <body>
     <div id="header">
-      <img
-        id="whats-logo"
-        src="https://static.xx.fbcdn.net/rsrc.php/yz/r/lOol7j-zq4u.svg"
-        alt=""
-      />
+      <a href="#">
+        <img
+          id="whats-logo"
+          src="https://static.xx.fbcdn.net/rsrc.php/yz/r/lOol7j-zq4u.svg"
+          alt=""
+        />
+      </a>
       <h1 id="title">WhatsApp Number</h1>
     </div>
     <div id="app">
-      <p id="lead">Envie mensagens e faça ligações<br>pelo Whatsapp™ sem precisar<br>adicionar o contato 😃</p>
+      <p id="lead">
+        Envie mensagens e faça ligações<br />pelo Whatsapp™ sem precisar<br />adicionar
+        o contato 😃
+      </p>
       <form action="#" id="number-form">
         <select name="countries" id="select-countries" required>
-          <option id="select-country" value="select-country" selected>
+          <option id="select-country" value="select-country" selected disabled>
             Selecione seu país
           </option>
         </select>
@@ -33,11 +92,21 @@
           onchange="callNumber()"
           required
         />
-        <a id="submit" href="">Enviar</a>
+        <a onclick="submitForm()" id="submit" href="">Enviar</a>
       </form>
       <div id="footer">
-        <p id="developed">Developed by <b><a href="https://www.linkedin.com/in/gabrielpetillo/">Gabriel Petillo</a></b></p>
-        <p id="advice">Este site não é de responsabilidade, mantido<br> ou desenvolvido pelo Whatsapp™ ou Meta™</p>
+        <p id="developed">
+          Developed by
+          <b
+            ><a href="https://www.linkedin.com/in/gabrielpetillo/"
+              >Gabriel Petillo</a
+            ></b
+          >
+        </p>
+        <p id="advice">
+          Este site não é de responsabilidade, mantido<br />
+          ou desenvolvido pelo Whatsapp™ ou Meta™
+        </p>
       </div>
     </div>
     <div id="background"></div>

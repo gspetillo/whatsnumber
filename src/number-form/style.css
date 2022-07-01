@@ -12,9 +12,10 @@
 #background {
   position: relative;
   z-index: -1;
-  top: -700px;
+  top: -775px;
   height: 45vh;
   background-image: url("https://i.pinimg.com/736x/8c/98/99/8c98994518b575bfd8c949e91d20548b.jpg");
+  background-repeat: repeat;
   opacity: 0.3;
 }
 
@@ -25,7 +26,7 @@
   gap: 5px;
   font-size: 12px;
   font-weight: 100;
-  padding: 1.9% 11%; 
+  padding: 1.9% 11%;
   /* 1.5625rem 9.375rem; */
   height: 40px;
   color: #fff;
@@ -57,7 +58,7 @@
   color: #fff;
   border-radius: 5px;
   padding: 10px;
-  margin-bottom: 50px;
+  margin: 0 10px 50px 10px;
 }
 
 #number-form {
@@ -65,11 +66,12 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin: 0 100px;
 }
 
 #number-form select,
 #number-form input {
-  width: 300px;
+  width: 18.75rem;
   color: #757575;
 }
 
@@ -82,6 +84,14 @@
 #phone-number {
   font-size: 16px;
   padding: 20px 10px;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+}
+
+#select-countries:hover,
+#phone-number:hover{
+  background-color: #f3f3f3;
+  border: 2px solid #128c7e
 }
 
 #submit {
@@ -96,6 +106,10 @@
   border-radius: 50px;
 }
 
+#submit:hover{
+  background-color: #0f7a6e;  
+}
+
 #footer {
   display: flex;
   flex-direction: column;
@@ -105,7 +119,7 @@
   width: calc(100vw - 105px);
   /* width: 50vw; */
   margin-top: 50px;
-  padding: 50px;;
+  padding: 50px;
   background-color: #273443;
 }
 
@@ -113,7 +127,6 @@
 #advice {
   color: #ccc;
 }
-
 
 #developed a {
   text-decoration: none;
@@ -127,6 +140,6 @@
   color: #bbb;
 }
 
-body{
+body {
   height: 0vh;
 }

@@ -9,6 +9,10 @@ function addCountries() {
     }
 }
 
+function submitForm(){
+    form.submit();
+}
+
 function callNumber() {
     // `https://web.whatsapp.com/send?phone=${selectCountries.value + phoneNumber.value}&type=phone_number&app_absent=0`
     let newUrl = `https://wa.me/${Number(selectCountries.value + phoneNumber.value)}`;

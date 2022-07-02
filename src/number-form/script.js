@@ -9,17 +9,27 @@ function addCountries() {
     }
 }
 
+phoneNumber.addEventListener('keypress', (e) => maskPhoneNumber(e.target.value)) // Dispara quando digitado no campo
+phoneNumber.addEventListener('change', (e) => maskPhoneNumber(e.target.value)) // Dispara quando autocompletado o campo
+
+const maskPhoneNumber = (valor) => {
+    valor = valor.replace(/\D/g, "")
+    valor = valor.replace(/^(\d{2})(\d)/g, "($1) $2")
+    valor = valor.replace(/(\d)(\d{4})$/, "$1-$2")
+    phoneNumber.value = valor // Insere o(s) valor(es) no campo
+}
+
 function submitForm(){
     form.submit();
 }
 
 function callNumber() {
+    const numberCleaned = phoneNumber.value.replace(/\D/g, '');
     // `https://web.whatsapp.com/send?phone=${selectCountries.value + phoneNumber.value}&type=phone_number&app_absent=0`
-    let newUrl = `https://wa.me/${Number(selectCountries.value + phoneNumber.value)}`;
+    let newUrl = `https://wa.me/${Number(selectCountries.value + numberCleaned)}`;
     console.log(newUrl);
     submit.href = newUrl    // location.replace(newUrl)
 }
-
 
 
 countries = [

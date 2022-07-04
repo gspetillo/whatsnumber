@@ -5,6 +5,11 @@
   font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
+html {
+  height: 100vh;
+  width: 100vw;
+}
+
 /* #bg{
   height: 0vh;
 } */
@@ -88,9 +93,9 @@
 }
 
 #select-countries:hover,
-#phone-number:hover{
+#phone-number:hover {
   background-color: #f3f3f3;
-  border: 2px solid #128c7e
+  border: 2px solid #128c7e;
 }
 
 #submit {
@@ -105,8 +110,8 @@
   border-radius: 50px;
 }
 
-#submit:hover{
-  background-color: #0f7a6e;  
+#submit:hover {
+  background-color: #0f7a6e;
 }
 
 #footer {
@@ -114,9 +119,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  /* width: 92vw; */
+  height: 100px;
   width: calc(100vw - 105px);
-  /* width: 50vw; */
   margin-top: 50px;
   padding: 50px;
   background-color: #273443;
@@ -141,4 +145,10 @@
 
 body {
   height: 0vh;
+}
+
+@media screen and (max-width: 700px) {
+  #header{
+    justify-content: center;
+  }
 }

@@ -61,8 +61,14 @@ Project to develop a site that connect to Whatsapp's API and enable users to sen
 
 ### 💯 Contributors
 
-<div style="width: 100px"><a href="https://www.linkedin.com/in/jjean-jacques10/"><img src="https://avatars.githubusercontent.com/u/32225403?v=4" alt="Gabriel Petillo" width="100px"/><p style="text-align: center; 
-font-size: 12px; font-weight: bold">Jean Jacques 🎖️</p></a></div>
+<div style="display: flex; width: 1000px">
+   <a href="https://www.linkedin.com/in/jjean-jacques10/" style="margin: 10px;">
+      <img src="https://avatars.githubusercontent.com/u/32225403?v=4" alt="Gabriel Petillo" width="100px"/>
+      <p style="width: 100px; text-align: center; font-size: 12px; font-weight: bold">Jean Jacques🎖️</p>
+   </a>
 
-<div style="width: 100px"><a href="https://www.linkedin.com/in/dabblu-kumar-singh-046189160/"><img src="https://avatars.githubusercontent.com/u/71687992?v=4" alt="Dabblu Kumar Singh" width="100px"/><p style="text-align: center; 
-font-size: 12px; font-weight: bold">Dabblu Kumar Singh 🎖️</p></a></div>
+   <a href="https://www.linkedin.com/in/dabblu-kumar-singh-046189160/" style="margin: 10px;">
+      <img src="https://avatars.githubusercontent.com/u/71687992?v=4" alt="Dabblu Kumar Singh" width="100px"/>
+      <p style="width: 100px; text-align: center; font-size: 12px; font-weight: bold">Dabblu Kumar Singh 🎖️</p>
+   </a>
+</div>

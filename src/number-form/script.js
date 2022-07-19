@@ -14,12 +14,15 @@ phoneNumber.addEventListener('change', (e) => maskPhoneNumber(e.target.value)) /
 
 const maskPhoneNumber = (valor) => {
     valor = valor.replace(/\D/g, "")
-    valor = valor.replace(/^(\d{2})(\d)/g, "($1) $2")
+
+    const regexDDD = (valor.length > 11) ? /^(\d{3})(\d)/g : /^(\d{2})(\d)/g
+    valor = valor.replace(regexDDD, "($1) $2")
+
     valor = valor.replace(/(\d)(\d{4})$/, "$1-$2")
     phoneNumber.value = valor // Insere o(s) valor(es) no campo
 }
 
-function submitForm(){
+function submitForm() {
     form.submit();
 }
 
